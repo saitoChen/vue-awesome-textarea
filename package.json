@@ -1,8 +1,8 @@
 {
   "name": "vue-awesome-textarea",
   "version": "1.0.0",
-  "description": "",
-
+  "description": "Support textarea autoszie on Vue2.x",
+  "author": "chenjianfeng",
   "main": "dist/vue-awesome-textarea.ssr.js",
   "browser": "dist/vue-awesome-textarea.esm.js",
   "module": "dist/vue-awesome-textarea.esm.js",
@@ -13,7 +13,10 @@
     "src/**/*.vue"
   ],
   "sideEffects": false,
-
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saitoChen/vue-awesome-textarea"
+  },
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
     "prebuild": "rimraf ./dist",
@@ -45,6 +48,17 @@
     "vue": "^2.6.14",
     "vue-template-compiler": "^2.6.14"
   },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "plugin",
+    "textarea",
+    "size",
+    "auto",
+    "autosize",
+    "height",
+    "resize"
+  ],
   "peerDependencies": {
     "vue": "^2.6.14"
   },
