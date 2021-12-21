@@ -1,2 +1,2 @@
 # vue-awesome-textarea
-Support textarea autosize plugin on Vue2.x
+🐱Auto resize textarea component for Vue2.x
