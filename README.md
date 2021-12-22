@@ -18,7 +18,7 @@ yarn add vue-awesome-textarea
 
 ```
 
-### Usage
+## Usage
 
 ```
 // main.js
@@ -35,19 +35,19 @@ Vue.use(VueAwesomeTextarea)
 
 ```
 
-### Option Props
+## Option Props
 
-- `autoResize` (`Boolean`, default: `false`)
+- `autoResize` (`Boolean`, default: `false`)<br/>
   Auto resize the textarea
-- `minHeight` (`Number`)
+- `minHeight` (`Number`)<br/>
   Textarea's minHeight
-- `maxHeight` (`Number`)
+- `maxHeight` (`Number`)<br/>
   Textarea's maxHeight, even set `autoResize: true`, maxHeight still effective
 
-### Events
+## Events
 
-- `getRows` (`Params: row`)
+- `getRows` (`Params: row`)<br/>
   Emmited when `autoResize` is true and textarea rows has been changed
 
-### LICENSE
+## LICENSE
 MIT
