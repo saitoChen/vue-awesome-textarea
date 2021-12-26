@@ -117,8 +117,7 @@ export default {
     },
     calcTextareaH() {
       let contentHeight = this.calcContentHeight()
-      this.calcHeightChange(contentHeight)
-      this.height = contentHeight + 'px'
+      this.height = this.calcHeightChange(contentHeight) + 'px'
       if (this.needUpdateRows(contentHeight)) {
         this.updateRows(contentHeight)
       }
@@ -132,6 +131,7 @@ export default {
         this.hasScroll = contentHeight > this.maxHeight
         contentHeight = Math.min(contentHeight, this.maxHeight)
       }
+      return contentHeight
     },
     calcNodeStyle(el) {
       const style = window.getComputedStyle(el);
