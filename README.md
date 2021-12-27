@@ -38,11 +38,11 @@ Vue.use(VueAwesomeTextarea)
 ## Option Props
 
 - `autoResize` (`Boolean`, default: `false`)<br/>
-  Auto resize the textarea
+  Auto resize the textarea, autoResize is effective after set v-model of textarea
 - `minHeight` (`Number`)<br/>
-  Textarea's minHeight
+  Textarea's minHeight, minHeight is effective after set `autoResize: true`
 - `maxHeight` (`Number`)<br/>
-  Textarea's maxHeight, even set `autoResize: true`, maxHeight still effective
+  Textarea's maxHeight, maxHeight is effective after set `autoResize: true`
 
 ## Events
 
